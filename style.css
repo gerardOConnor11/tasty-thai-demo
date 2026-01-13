@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,8 +11,9 @@ body {
   line-height: 1.6;
 }
 
+/* HERO SECTION */
 .hero {
-  background: #c62828;
+  background-color: #c62828;
   color: white;
   text-align: center;
   padding: 60px 20px;
@@ -27,6 +28,7 @@ body {
   font-size: 1.1rem;
 }
 
+/* BUTTONS */
 .buttons {
   margin-top: 30px;
   display: flex;
@@ -38,19 +40,22 @@ body {
 }
 
 .btn {
-  background: white;
+  background-color: white;
   color: #c62828;
   padding: 14px;
   text-decoration: none;
   border-radius: 6px;
   font-weight: bold;
+  display: block;
 }
 
+/* CONTENT SECTION */
 .section {
   padding: 30px;
   text-align: center;
 }
 
+/* FOOTER */
 footer {
   text-align: center;
   padding: 15px;
